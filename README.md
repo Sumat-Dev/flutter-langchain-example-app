@@ -43,7 +43,7 @@ LangChain มีอินเทอร์เฟซทั่วไปที่ใ�
 
 
 ## Prompt templates
-แอปพลิเคชัน LLM ส่วนใหญ่จะไม่ผ่านการป้อนข้อมูลของผู้ใช้โดยตรงไปยังไฟล์ `LLM ` โดยปกติแล้วพวกเขาจะเพิ่มการป้อนข้อมูลของผู้ใช้ลงในข้อความขนาดใหญ่ที่เรียกว่า Prompt templates ที่ให้บริบทเพิ่มเติมเกี่ยวกับงานเฉพาะที่มีอยู่
+แอปพลิเคชัน LLM ส่วนใหญ่จะไม่ผ่านการป้อนข้อมูลของผู้ใช้โดยตรงไปยังไฟล์ `LLM` โดยปกติแล้วพวกเขาจะเพิ่มการป้อนข้อมูลของผู้ใช้ลงในข้อความขนาดใหญ่ที่เรียกว่า Prompt templates ที่ให้บริบทเพิ่มเติมเกี่ยวกับงานเฉพาะที่มีอยู่
 
 _Example_
   
@@ -88,15 +88,11 @@ class CommaSeparatedListOutputParser
 
 ```
 
+## Dart packages
 
-
-
-
-## :mortar_board: Dart packages
-
-[langchain](https://pub.dev/packages/langchain) Build LLM-powered Dart/Flutter applications
- [langchain_openai](https://pub.dev/packages/langchain) OpenAI module for LangChain.dart
- [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) Load configuration at runtime from a .env file
+- [langchain](https://pub.dev/packages/langchain) Build LLM-powered Dart/Flutter applications
+- [langchain_openai](https://pub.dev/packages/langchain) OpenAI module for LangChain.dart
+- [flutter_dotenv](https://pub.dev/packages/flutter_dotenv) Load configuration at runtime from a .env file
 
 ## Reference
 Reference content from [LangChain.dart](https://langchaindart.com/#/)
